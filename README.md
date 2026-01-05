@@ -93,7 +93,7 @@ In this project, the model uses 320 x 320 X-Rays images and outputs predictions 
 ![](asset/predictions.png)
 
 # Environment and dependencies
-In order to run the model, I used an environment with tensorflow 1.15.0 and Keras 2.1.6. Model weights are provided in the repo.
+In order to run the model: I used an environment with tensorflow 1.15.0 and Keras 2.1.6. Model weights are provided in the repo.
 
 # Results
 I used a pre-trained model which performance can be evaluated using the ROC curve shown at the bottom. The best results are achieved for Cardiomegaly (0.9 AUC), Edema (0.86) and Mass (0.82). Ideally we want to be significantly closer to 1. You can check out below the performance from the ChexNeXt paper and their model as well as radiologists on this dataset.
