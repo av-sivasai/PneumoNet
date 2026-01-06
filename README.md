@@ -9,7 +9,7 @@ This project is a complilation of several sub-projects from Coursera 3-course [I
 
 The project uses a pretrained DenseNet-121 model able to diagnose 14 labels such as Cardiomegaly, Mass, Pneumothorax or Edema. In other words, this single model can provide binary classification predictions for each of the 14 labeled pathologies.
 
-Weight normalization is performed to offset the low prevalence of the abnormalities among the dataset of X-Rays (class imbalance).
+Weight normalization is performed to offset the low prevalence of the abnormalities among the dataset of X-Rays.
 
 Finally the GradCAM technique is used to highlight and visualize where the model is looking, which area of interest is used to make the prediction. This is a tool which can be helpful for discovery of markers, error analysis, training and even in deployment.
 
